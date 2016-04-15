@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hone Kid MOOC example game</title>
+  </head>
+  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" charset="utf-8" />
+  <style media="screen">
+    .button-container {
+      text-align: center;
+      margin-top: 300px;
+    }
+    .button-container button {
+      display: inline-block;
+    }
+    h1 {text-align: center;}
+  </style>
+  <link rel="stylesheet" href="bower_components/ladda/dist/ladda.min.css" charset="utf-8" />
+  <body>
+    <h1>Kid MOOC example game</h1>
+    <div class="button-container">
+      <button class="authenticate ladda-button">Authenticate</button>
+      <button class="complete_skill ladda-button" type="submit" class="ladda-button" data-style="expand-right"><span class="ladda-label">Count to 120</span></button>
+    </div>
+    <script type="text/javascript" src="bower_components/ladda/dist/spin.min.js"></script>
+    <script type="text/javascript" src="bower_components/ladda/dist/ladda.min.js"></script>
+    <script type="text/javascript" src="dist/bundle.js"></script>
+  </body>
+
+</html>
