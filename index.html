@@ -15,18 +15,35 @@
     .button-container button {
       display: inline-block;
     }
+    input, label {
+      width: 100%;
+    }
     h1 {text-align: center;}
   </style>
   <link rel="stylesheet" href="bower_components/ladda/dist/ladda.min.css" charset="utf-8" />
   <body>
+  <div class="container">
+
     <h1>Kid MOOC example game</h1>
+    <div class="col-md-4">
+      <label for="honeUrl">Hone URL: <br/><input id="honeUrl" placeholder="https://hone-kids.herokuapp.com"></label>
+      <a href="#" id="defaultHoneUrl">Default Hone URL</a>
+    </div>
+    <div class="col-md-4">
+      <label for="clientId">Client ID: <br/><input id="clientId" placeholder="ce4e8edb7cf089b1b877611894762a97e0c8c32b647f0390d5d076387bcfdd7a"></label>
+    </div>
+    <div class="col-md-4">
+      <label for="skillId">Skill ID: <br/><input id="skillId" placeholder="1"> </label>
+    </div>
     <div class="button-container">
       <button class="authenticate ladda-button">Authenticate</button>
-      <button class="complete_skill ladda-button" type="submit" class="ladda-button" data-style="expand-right"><span class="ladda-label">Count to 120</span></button>
+      <button class="complete_skill ladda-button" type="submit" class="ladda-button" data-style="expand-right"><span class="ladda-label">Complete skill</span></button>
     </div>
+
     <script type="text/javascript" src="bower_components/ladda/dist/spin.min.js"></script>
     <script type="text/javascript" src="bower_components/ladda/dist/ladda.min.js"></script>
     <script type="text/javascript" src="dist/bundle.js"></script>
+  </div>
   </body>
 
 </html>
