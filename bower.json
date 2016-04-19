@@ -1,0 +1,22 @@
+{
+  "name": "hone-demo-webapp",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "prismacon <wwhhooaahh@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/prismacon/hone-demo-webapp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ladda": "^1.0.0",
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6"
+  }
+}
